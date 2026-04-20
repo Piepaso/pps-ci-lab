@@ -7,7 +7,7 @@ jobs:
     steps:
       - uses: actions/setup-java@v5
         with:
-          distribution: "temurin"
           java-version: 25
+          distribution: "temurin"
       - name: Build
         run: ./gradlew clean build
